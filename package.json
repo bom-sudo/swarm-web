@@ -1,0 +1,26 @@
+{
+  "name": "swarm-web",
+  "version": "1.0.0",
+  "description": "Drop-in animated swarm (boids + linked particles) background for any website. Zero dependencies. Vanilla JS, <swarm-web> Web Component and React wrapper.",
+  "type": "module",
+  "main": "./dist/swarm-web.js",
+  "module": "./dist/swarm-web.mjs",
+  "types": "./dist/swarm-web.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/swarm-web.d.ts",
+      "import": "./dist/swarm-web.mjs",
+      "default": "./dist/swarm-web.js"
+    }
+  },
+  "files": ["dist", "react", "AI_INSTALL.md"],
+  "sideEffects": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test test/engine.test.mjs",
+    "demo": "npx --yes serve ."
+  },
+  "keywords": ["swarm", "boids", "particles", "background", "canvas", "web-component", "react", "animation"],
+  "repository": { "type": "git", "url": "git+https://github.com/bom-sudo/swarm-web.git" },
+  "license": "MIT"
+}
