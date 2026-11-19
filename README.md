@@ -1,7 +1,7 @@
 # swarm-web
 
 <p align="center">
-  <img src="demo/preview.gif" alt="swarm-web interactive preview" width="800" />
+  <img src="demo/preview.gif" alt="swarm-web interactive preview" width="100%" />
 </p>
 
 ฝูง particle เคลื่อนไหวแบบ **boids** (บินเป็นฝูง มีเส้นเชื่อมระหว่างจุด และตอบสนองต่อเมาส์) สำหรับใส่เป็นพื้นหลังในเว็บไซต์
