@@ -5,6 +5,10 @@
 > reacting to the mouse) added to the website in the current project.
 > Follow the steps below **in order**. Do not ask the human questions that this file already answers.
 > Only ask if a decision in step 1 is truly ambiguous (e.g. several unrelated sites in one repo).
+> The human may add short plain-language wishes (any language, often Thai) such as "เป็นพื้นหลังเต็มหน้า"
+> (full-page background), "สีเขียว" (green), "สามเหลี่ยม" (triangles), "ไม่มีเส้น" (no lines),
+> "วิ่งเข้าหาเมาส์" (attract), "ช้าๆ" (slow) — map them to the options in section 3.
+> When you report back, reply in the human's language.
 
 Source repo: <https://github.com/bom-sudo/swarm-web> · License: MIT · Zero dependencies · ~10 KB
 
